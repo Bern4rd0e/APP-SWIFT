@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057BC5572CD2E311005DFB9C /* Aula04_IF_NoturnoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057BC5562CD2E311005DFB9C /* Aula04_IF_NoturnoApp.swift */; };
+		057BC5592CD2E311005DFB9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057BC5582CD2E311005DFB9C /* ContentView.swift */; };
+		057BC55B2CD2E312005DFB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057BC55A2CD2E312005DFB9C /* Assets.xcassets */; };
+		057BC55E2CD2E312005DFB9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057BC55D2CD2E312005DFB9C /* Preview Assets.xcassets */; };
+		057BC5652CD2EA5A005DFB9C /* Rosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057BC5642CD2EA5A005DFB9C /* Rosa.swift */; };
+		057BC5672CD2EBA1005DFB9C /* Azul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057BC5662CD2EBA1005DFB9C /* Azul.swift */; };
+		057BC5692CD2EC4F005DFB9C /* Cinza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057BC5682CD2EC4F005DFB9C /* Cinza.swift */; };
+		057BC56B2CD2ECB8005DFB9C /* Lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057BC56A2CD2ECB8005DFB9C /* Lista.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		057BC5532CD2E311005DFB9C /* Aula04-IF-Noturno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aula04-IF-Noturno.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057BC5562CD2E311005DFB9C /* Aula04_IF_NoturnoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula04_IF_NoturnoApp.swift; sourceTree = "<group>"; };
+		057BC5582CD2E311005DFB9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		057BC55A2CD2E312005DFB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		057BC55D2CD2E312005DFB9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		057BC5642CD2EA5A005DFB9C /* Rosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rosa.swift; sourceTree = "<group>"; };
+		057BC5662CD2EBA1005DFB9C /* Azul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azul.swift; sourceTree = "<group>"; };
+		057BC5682CD2EC4F005DFB9C /* Cinza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinza.swift; sourceTree = "<group>"; };
+		057BC56A2CD2ECB8005DFB9C /* Lista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		057BC5502CD2E311005DFB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057BC54A2CD2E311005DFB9C = {
+			isa = PBXGroup;
+			children = (
+				057BC5552CD2E311005DFB9C /* Aula04-IF-Noturno */,
+				057BC5542CD2E311005DFB9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		057BC5542CD2E311005DFB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				057BC5532CD2E311005DFB9C /* Aula04-IF-Noturno.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		057BC5552CD2E311005DFB9C /* Aula04-IF-Noturno */ = {
+			isa = PBXGroup;
+			children = (
+				057BC5562CD2E311005DFB9C /* Aula04_IF_NoturnoApp.swift */,
+				057BC5582CD2E311005DFB9C /* ContentView.swift */,
+				057BC5642CD2EA5A005DFB9C /* Rosa.swift */,
+				057BC5662CD2EBA1005DFB9C /* Azul.swift */,
+				057BC5682CD2EC4F005DFB9C /* Cinza.swift */,
+				057BC56A2CD2ECB8005DFB9C /* Lista.swift */,
+				057BC55A2CD2E312005DFB9C /* Assets.xcassets */,
+				057BC55C2CD2E312005DFB9C /* Preview Content */,
+			);
+			path = "Aula04-IF-Noturno";
+			sourceTree = "<group>";
+		};
+		057BC55C2CD2E312005DFB9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				057BC55D2CD2E312005DFB9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		057BC5522CD2E311005DFB9C /* Aula04-IF-Noturno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057BC5612CD2E312005DFB9C /* Build configuration list for PBXNativeTarget "Aula04-IF-Noturno" */;
+			buildPhases = (
+				057BC54F2CD2E311005DFB9C /* Sources */,
+				057BC5502CD2E311005DFB9C /* Frameworks */,
+				057BC5512CD2E311005DFB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aula04-IF-Noturno";
+			productName = "Aula04-IF-Noturno";
+			productReference = 057BC5532CD2E311005DFB9C /* Aula04-IF-Noturno.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		057BC54B2CD2E311005DFB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					057BC5522CD2E311005DFB9C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 057BC54E2CD2E311005DFB9C /* Build configuration list for PBXProject "Aula04-IF-Noturno" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 057BC54A2CD2E311005DFB9C;
+			productRefGroup = 057BC5542CD2E311005DFB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				057BC5522CD2E311005DFB9C /* Aula04-IF-Noturno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		057BC5512CD2E311005DFB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057BC55E2CD2E312005DFB9C /* Preview Assets.xcassets in Resources */,
+				057BC55B2CD2E312005DFB9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		057BC54F2CD2E311005DFB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057BC5592CD2E311005DFB9C /* ContentView.swift in Sources */,
+				057BC5672CD2EBA1005DFB9C /* Azul.swift in Sources */,
+				057BC5572CD2E311005DFB9C /* Aula04_IF_NoturnoApp.swift in Sources */,
+				057BC5652CD2EA5A005DFB9C /* Rosa.swift in Sources */,
+				057BC5692CD2EC4F005DFB9C /* Cinza.swift in Sources */,
+				057BC56B2CD2ECB8005DFB9C /* Lista.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		057BC55F2CD2E312005DFB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		057BC5602CD2E312005DFB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		057BC5622CD2E312005DFB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aula04-IF-Noturno/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.hackatruck.Aula04-IF-Noturno";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		057BC5632CD2E312005DFB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aula04-IF-Noturno/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.hackatruck.Aula04-IF-Noturno";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		057BC54E2CD2E311005DFB9C /* Build configuration list for PBXProject "Aula04-IF-Noturno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057BC55F2CD2E312005DFB9C /* Debug */,
+				057BC5602CD2E312005DFB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		057BC5612CD2E312005DFB9C /* Build configuration list for PBXNativeTarget "Aula04-IF-Noturno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057BC5622CD2E312005DFB9C /* Debug */,
+				057BC5632CD2E312005DFB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 057BC54B2CD2E311005DFB9C /* Project object */;
+}
