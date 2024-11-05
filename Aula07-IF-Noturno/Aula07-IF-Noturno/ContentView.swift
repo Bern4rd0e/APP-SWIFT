@@ -13,16 +13,19 @@ struct ContentView: View {
         VStack {
             ScrollView{
                 ForEach(viewModel.chars){ index in
-                    Text(index.id)
-                    Text(index.name!)
-                    Text(index.gender!)
-                    Text(index.actor!)
-                    Text(index.house!)
-                    
-
+                    VStack{
+                        
+                        Text("ID: " + index.id)
+                        Text(index.name!)
+                        Text(index.gender!)
+                        Text(index.actor!)
+                        Text(index.house!)
+                    }
+                    .padding()
+                    .background(.gray)
                 }
-                .padding()
-                .background(.gray)
+                
+                
             }
         }
         .onAppear(){
